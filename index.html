@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go My Code</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(240, 241, 242);
+    }
+
+    nav {
+
+        display: flex;
+        height: 80px;
+        align-items: center;
+        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.06);
+        background: #fff;
+    }
+
+
+    .logo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul {
+        list-style: none;
+        display: flex;
+        width: 70%;
+    }
+
+    .menu li {
+        padding: 10px;
+        color: #18204b;
+    }
+
+    .About {
+        background: rgb(97, 143, 196);
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Work {
+        background: rgb(82, 196, 186);
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .Resume {
+        background: rgb(169, 35, 173);
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Contact {
+
+        height: 400px;
+    }
+
+    .Contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Contact form {
+
+        width: 80%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Contact form input {
+        height: 20px;
+        width: 70%;
+        margin: 10px;
+        border: 0;
+        padding: 10px;
+    }
+
+    .Contact form textarea {
+
+        width: 70%;
+        margin: 10px;
+        border: 0;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .Contact form button {
+        height: 30px;
+        width: 72%;
+        margin: 10px;
+        border: 0;
+        background-color: rgb(229, 9, 20);
+        color: #fff;
+    }
+
+    footer {
+        height: 100px;
+        background-color: #18204b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+</style>
+
+
+<body>
+
+    <!-- NavBar & Local link -->
+
+    <nav>
+        <div class="logo">
+            <img src="src/logo.svg" />
+        </div>
+
+        <div class="menu">
+            <ul>
+
+                <li>
+                    Home
+                </li>
+
+                <li>
+                    <a href="#About">About</a>
+                </li>
+
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+
+                <li>
+                    <a href="#Resume">Resume</a>
+                </li>
+
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About section & audio  -->
+
+    <section class="About">
+        <a name="About"> </a>
+        <h1>About</h1>
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/mpeg">
+      
+            Your browser does not support the audio element.
+        </audio>
+
+    </section>
+
+    <!-- Work section & video -->
+
+    <section class="Work">
+        <a name="Work"> </a>
+        <video width="700px" height="400px" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+
+    <!-- Resume section  -->
+
+    <section class="Resume">
+        <a name="Resume"> </a>
+        <h1>Resume</h1>
+    </section>
+
+    <!-- Contact section & form   -->
+
+    <section class="Contact">
+        <a name="Contact"> </a>
+        <form>
+            <input placeholder="Name" name='from'>
+            <input placeholder="Email" email='email'>
+            <textarea placeholder="Le Message"></textarea>
+            <button>Contact</button>
+        </form>
+    </section>
+
+    <!-- footer section   -->
+
+    <footer>
+        <label>Go my code 2020 </label>
+    </footer>
+
+
+
+</body>
+</html>
